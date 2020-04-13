@@ -1,0 +1,1284 @@
+Leraning rate is controled by epoch.
+{ Model type: resnet56 }
+{ Total params: 861,770 }
+{ Optimizer: <tensorflow.python.keras.optimizer_v2.gradient_descent.SGD object at 0x00000292C2599308> }
+{ Leraning rate: 0.1 }
+{ Datagen: {"horizontal_flip": true, "width_shift_range": 0.1, "height_shift_range": 0.1, "cutout_mask_size": 16} }
+{ Batch size: 128 }
+{ Number of epoch: 182 }
+{ Learn minute: 120 }
+| val_loss:   2.469171 |
+| loss:   2.766651 |
+| val_accuracy:   0.278846 |
+| accuracy:   0.193229 |
+
+Epoch 00001: val_loss improved from inf to 2.46917, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   2.083416 |
+| loss:   2.141239 |
+| val_accuracy:   0.384515 |
+| accuracy:   0.361145 |
+
+Epoch 00002: val_loss improved from 2.46917 to 2.08342, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   2.190056 |
+| loss:   1.900562 |
+| val_accuracy:   0.397937 |
+| accuracy:   0.439686 |
+
+Epoch 00003: val_loss did not improve from 2.08342
+lr:1.00e-01
+| val_loss:   2.324055 |
+| loss:   1.713929 |
+| val_accuracy:   0.373998 |
+| accuracy:   0.500100 |
+
+Epoch 00004: val_loss did not improve from 2.08342
+lr:1.00e-01
+| val_loss:   1.437520 |
+| loss:   1.589053 |
+| val_accuracy:   0.605168 |
+| accuracy:   0.538238 |
+
+Epoch 00005: val_loss improved from 2.08342 to 1.43752, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.543099 |
+| loss:   1.480731 |
+| val_accuracy:   0.565405 |
+| accuracy:   0.573949 |
+
+Epoch 00006: val_loss did not improve from 1.43752
+lr:1.00e-01
+| val_loss:   1.447105 |
+| loss:   1.394372 |
+| val_accuracy:   0.588942 |
+| accuracy:   0.600257 |
+
+Epoch 00007: val_loss did not improve from 1.43752
+lr:1.00e-01
+| val_loss:   1.447275 |
+| loss:   1.309812 |
+| val_accuracy:   0.599960 |
+| accuracy:   0.624779 |
+
+Epoch 00008: val_loss did not improve from 1.43752
+lr:1.00e-01
+| val_loss:   1.568106 |
+| loss:   1.249374 |
+| val_accuracy:   0.595252 |
+| accuracy:   0.647959 |
+
+Epoch 00009: val_loss did not improve from 1.43752
+lr:1.00e-01
+| val_loss:   1.198143 |
+| loss:   1.191574 |
+| val_accuracy:   0.659655 |
+| accuracy:   0.662476 |
+
+Epoch 00010: val_loss improved from 1.43752 to 1.19814, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.158221 |
+| loss:   1.140879 |
+| val_accuracy:   0.686398 |
+| accuracy:   0.679820 |
+
+Epoch 00011: val_loss improved from 1.19814 to 1.15822, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.182144 |
+| loss:   1.106891 |
+| val_accuracy:   0.675681 |
+| accuracy:   0.692052 |
+
+Epoch 00012: val_loss did not improve from 1.15822
+lr:1.00e-01
+| val_loss:   1.182085 |
+| loss:   1.071432 |
+| val_accuracy:   0.685397 |
+| accuracy:   0.702839 |
+
+Epoch 00013: val_loss did not improve from 1.15822
+lr:1.00e-01
+| val_loss:   1.422749 |
+| loss:   1.043609 |
+| val_accuracy:   0.619892 |
+| accuracy:   0.711983 |
+
+Epoch 00014: val_loss did not improve from 1.15822
+lr:1.00e-01
+| val_loss:   1.348108 |
+| loss:   1.014250 |
+| val_accuracy:   0.639523 |
+| accuracy:   0.722810 |
+
+Epoch 00015: val_loss did not improve from 1.15822
+lr:1.00e-01
+| val_loss:   1.050142 |
+| loss:   0.995149 |
+| val_accuracy:   0.726362 |
+| accuracy:   0.727984 |
+
+Epoch 00016: val_loss improved from 1.15822 to 1.05014, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.309780 |
+| loss:   0.973416 |
+| val_accuracy:   0.653546 |
+| accuracy:   0.737127 |
+
+Epoch 00017: val_loss did not improve from 1.05014
+lr:1.00e-01
+| val_loss:   1.097255 |
+| loss:   0.957892 |
+| val_accuracy:   0.717248 |
+| accuracy:   0.742220 |
+
+Epoch 00018: val_loss did not improve from 1.05014
+lr:1.00e-01
+| val_loss:   1.108571 |
+| loss:   0.943677 |
+| val_accuracy:   0.710437 |
+| accuracy:   0.749178 |
+
+Epoch 00019: val_loss did not improve from 1.05014
+lr:1.00e-01
+| val_loss:   1.226333 |
+| loss:   0.923467 |
+| val_accuracy:   0.672877 |
+| accuracy:   0.756717 |
+
+Epoch 00020: val_loss did not improve from 1.05014
+lr:1.00e-01
+| val_loss:   1.225985 |
+| loss:   0.916675 |
+| val_accuracy:   0.704127 |
+| accuracy:   0.758943 |
+
+Epoch 00021: val_loss did not improve from 1.05014
+lr:1.00e-01
+| val_loss:   1.237954 |
+| loss:   0.901170 |
+| val_accuracy:   0.698117 |
+| accuracy:   0.766582 |
+
+Epoch 00022: val_loss did not improve from 1.05014
+lr:1.00e-01
+| val_loss:   1.065010 |
+| loss:   0.888548 |
+| val_accuracy:   0.721354 |
+| accuracy:   0.770332 |
+
+Epoch 00023: val_loss did not improve from 1.05014
+lr:1.00e-01
+| val_loss:   1.019068 |
+| loss:   0.885105 |
+| val_accuracy:   0.743189 |
+| accuracy:   0.773300 |
+
+Epoch 00024: val_loss improved from 1.05014 to 1.01907, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.059934 |
+| loss:   0.878923 |
+| val_accuracy:   0.752304 |
+| accuracy:   0.775325 |
+
+Epoch 00025: val_loss did not improve from 1.01907
+lr:1.00e-01
+| val_loss:   0.877036 |
+| loss:   0.871757 |
+| val_accuracy:   0.785757 |
+| accuracy:   0.778693 |
+
+Epoch 00026: val_loss improved from 1.01907 to 0.87704, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.120307 |
+| loss:   0.865707 |
+| val_accuracy:   0.731270 |
+| accuracy:   0.779556 |
+
+Epoch 00027: val_loss did not improve from 0.87704
+lr:1.00e-01
+| val_loss:   0.982536 |
+| loss:   0.862736 |
+| val_accuracy:   0.764523 |
+| accuracy:   0.782162 |
+
+Epoch 00028: val_loss did not improve from 0.87704
+lr:1.00e-01
+| val_loss:   0.911020 |
+| loss:   0.854468 |
+| val_accuracy:   0.776242 |
+| accuracy:   0.786935 |
+
+Epoch 00029: val_loss did not improve from 0.87704
+lr:1.00e-01
+| val_loss:   0.931504 |
+| loss:   0.852387 |
+| val_accuracy:   0.779046 |
+| accuracy:   0.786834 |
+
+Epoch 00030: val_loss did not improve from 0.87704
+lr:1.00e-01
+| val_loss:   1.204043 |
+| loss:   0.831693 |
+| val_accuracy:   0.703626 |
+| accuracy:   0.796339 |
+
+Epoch 00031: val_loss did not improve from 0.87704
+lr:1.00e-01
+| val_loss:   1.133893 |
+| loss:   0.834104 |
+| val_accuracy:   0.742488 |
+| accuracy:   0.795416 |
+
+Epoch 00032: val_loss did not improve from 0.87704
+lr:1.00e-01
+| val_loss:   0.859495 |
+| loss:   0.826128 |
+| val_accuracy:   0.799980 |
+| accuracy:   0.799386 |
+
+Epoch 00033: val_loss improved from 0.87704 to 0.85949, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.390264 |
+| loss:   0.828505 |
+| val_accuracy:   0.673177 |
+| accuracy:   0.800108 |
+
+Epoch 00034: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.977257 |
+| loss:   0.824357 |
+| val_accuracy:   0.767428 |
+| accuracy:   0.801091 |
+
+Epoch 00035: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.969887 |
+| loss:   0.823330 |
+| val_accuracy:   0.763421 |
+| accuracy:   0.802214 |
+
+Epoch 00036: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.870377 |
+| loss:   0.820479 |
+| val_accuracy:   0.797676 |
+| accuracy:   0.804139 |
+
+Epoch 00037: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   1.012322 |
+| loss:   0.816058 |
+| val_accuracy:   0.754407 |
+| accuracy:   0.805683 |
+
+Epoch 00038: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   1.026408 |
+| loss:   0.808559 |
+| val_accuracy:   0.762420 |
+| accuracy:   0.808791 |
+
+Epoch 00039: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   1.418085 |
+| loss:   0.816633 |
+| val_accuracy:   0.691006 |
+| accuracy:   0.805302 |
+
+Epoch 00040: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.886678 |
+| loss:   0.799605 |
+| val_accuracy:   0.798778 |
+| accuracy:   0.812540 |
+
+Epoch 00041: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.883482 |
+| loss:   0.810304 |
+| val_accuracy:   0.809696 |
+| accuracy:   0.809713 |
+
+Epoch 00042: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.936857 |
+| loss:   0.791634 |
+| val_accuracy:   0.792167 |
+| accuracy:   0.817012 |
+
+Epoch 00043: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   1.005532 |
+| loss:   0.794164 |
+| val_accuracy:   0.760717 |
+| accuracy:   0.814986 |
+
+Epoch 00044: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.904966 |
+| loss:   0.793181 |
+| val_accuracy:   0.783854 |
+| accuracy:   0.818034 |
+
+Epoch 00045: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   1.060577 |
+| loss:   0.787572 |
+| val_accuracy:   0.749499 |
+| accuracy:   0.821222 |
+
+Epoch 00046: val_loss did not improve from 0.85949
+lr:1.00e-01
+| val_loss:   0.849755 |
+| loss:   0.782845 |
+| val_accuracy:   0.808494 |
+| accuracy:   0.821503 |
+
+Epoch 00047: val_loss improved from 0.85949 to 0.84975, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   0.914494 |
+| loss:   0.783611 |
+| val_accuracy:   0.805990 |
+| accuracy:   0.820721 |
+
+Epoch 00048: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   1.085900 |
+| loss:   0.783902 |
+| val_accuracy:   0.747095 |
+| accuracy:   0.821583 |
+
+Epoch 00049: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   1.023502 |
+| loss:   0.785797 |
+| val_accuracy:   0.764423 |
+| accuracy:   0.820821 |
+
+Epoch 00050: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   0.990383 |
+| loss:   0.776645 |
+| val_accuracy:   0.767328 |
+| accuracy:   0.826275 |
+
+Epoch 00051: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   0.871451 |
+| loss:   0.775971 |
+| val_accuracy:   0.809996 |
+| accuracy:   0.824751 |
+
+Epoch 00052: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   1.015695 |
+| loss:   0.778597 |
+| val_accuracy:   0.767428 |
+| accuracy:   0.823127 |
+
+Epoch 00053: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   1.071644 |
+| loss:   0.772557 |
+| val_accuracy:   0.758413 |
+| accuracy:   0.827779 |
+
+Epoch 00054: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   0.973208 |
+| loss:   0.772384 |
+| val_accuracy:   0.795272 |
+| accuracy:   0.826255 |
+
+Epoch 00055: val_loss did not improve from 0.84975
+lr:1.00e-01
+| val_loss:   0.828261 |
+| loss:   0.773075 |
+| val_accuracy:   0.817408 |
+| accuracy:   0.827438 |
+
+Epoch 00056: val_loss improved from 0.84975 to 0.82826, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.283381 |
+| loss:   0.766585 |
+| val_accuracy:   0.711538 |
+| accuracy:   0.830767 |
+
+Epoch 00057: val_loss did not improve from 0.82826
+lr:1.00e-01
+| val_loss:   1.068492 |
+| loss:   0.774136 |
+| val_accuracy:   0.756310 |
+| accuracy:   0.828300 |
+
+Epoch 00058: val_loss did not improve from 0.82826
+lr:1.00e-01
+| val_loss:   0.844933 |
+| loss:   0.769669 |
+| val_accuracy:   0.821915 |
+| accuracy:   0.831850 |
+
+Epoch 00059: val_loss did not improve from 0.82826
+lr:1.00e-01
+| val_loss:   0.797183 |
+| loss:   0.762042 |
+| val_accuracy:   0.832532 |
+| accuracy:   0.831509 |
+
+Epoch 00060: val_loss improved from 0.82826 to 0.79718, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   1.096477 |
+| loss:   0.763115 |
+| val_accuracy:   0.756310 |
+| accuracy:   0.834737 |
+
+Epoch 00061: val_loss did not improve from 0.79718
+lr:1.00e-01
+| val_loss:   1.466818 |
+| loss:   0.760881 |
+| val_accuracy:   0.688401 |
+| accuracy:   0.835659 |
+
+Epoch 00062: val_loss did not improve from 0.79718
+lr:1.00e-01
+| val_loss:   0.782263 |
+| loss:   0.760704 |
+| val_accuracy:   0.838241 |
+| accuracy:   0.835078 |
+
+Epoch 00063: val_loss improved from 0.79718 to 0.78226, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   0.785469 |
+| loss:   0.762622 |
+| val_accuracy:   0.834435 |
+| accuracy:   0.834677 |
+
+Epoch 00064: val_loss did not improve from 0.78226
+lr:1.00e-01
+| val_loss:   0.860695 |
+| loss:   0.756505 |
+| val_accuracy:   0.809796 |
+| accuracy:   0.836040 |
+
+Epoch 00065: val_loss did not improve from 0.78226
+lr:1.00e-01
+| val_loss:   0.852950 |
+| loss:   0.759607 |
+| val_accuracy:   0.813802 |
+| accuracy:   0.835840 |
+
+Epoch 00066: val_loss did not improve from 0.78226
+lr:1.00e-01
+| val_loss:   1.167406 |
+| loss:   0.758005 |
+| val_accuracy:   0.733574 |
+| accuracy:   0.835479 |
+
+Epoch 00067: val_loss did not improve from 0.78226
+lr:1.00e-01
+| val_loss:   0.843157 |
+| loss:   0.757972 |
+| val_accuracy:   0.828025 |
+| accuracy:   0.837604 |
+
+Epoch 00068: val_loss did not improve from 0.78226
+lr:1.00e-01
+| val_loss:   0.750873 |
+| loss:   0.753176 |
+| val_accuracy:   0.848858 |
+| accuracy:   0.838567 |
+
+Epoch 00069: val_loss improved from 0.78226 to 0.75087, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   0.912637 |
+| loss:   0.753870 |
+| val_accuracy:   0.797376 |
+| accuracy:   0.839409 |
+
+Epoch 00070: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.833510 |
+| loss:   0.758627 |
+| val_accuracy:   0.824219 |
+| accuracy:   0.838166 |
+
+Epoch 00071: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   1.306534 |
+| loss:   0.753844 |
+| val_accuracy:   0.731871 |
+| accuracy:   0.839509 |
+
+Epoch 00072: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   1.424497 |
+| loss:   0.749616 |
+| val_accuracy:   0.694411 |
+| accuracy:   0.842076 |
+
+Epoch 00073: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.883988 |
+| loss:   0.752335 |
+| val_accuracy:   0.818810 |
+| accuracy:   0.840371 |
+
+Epoch 00074: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.820408 |
+| loss:   0.747402 |
+| val_accuracy:   0.830729 |
+| accuracy:   0.843720 |
+
+Epoch 00075: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.765459 |
+| loss:   0.750706 |
+| val_accuracy:   0.843049 |
+| accuracy:   0.840672 |
+
+Epoch 00076: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.766878 |
+| loss:   0.745187 |
+| val_accuracy:   0.847256 |
+| accuracy:   0.842176 |
+
+Epoch 00077: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.880650 |
+| loss:   0.746389 |
+| val_accuracy:   0.820012 |
+| accuracy:   0.843459 |
+
+Epoch 00078: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.917288 |
+| loss:   0.743837 |
+| val_accuracy:   0.797276 |
+| accuracy:   0.844061 |
+
+Epoch 00079: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   1.031022 |
+| loss:   0.752132 |
+| val_accuracy:   0.762320 |
+| accuracy:   0.841875 |
+
+Epoch 00080: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.828878 |
+| loss:   0.737919 |
+| val_accuracy:   0.824219 |
+| accuracy:   0.846447 |
+
+Epoch 00081: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.830823 |
+| loss:   0.747361 |
+| val_accuracy:   0.829728 |
+| accuracy:   0.843740 |
+
+Epoch 00082: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   1.049161 |
+| loss:   0.737011 |
+| val_accuracy:   0.782552 |
+| accuracy:   0.846266 |
+
+Epoch 00083: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   1.027982 |
+| loss:   0.745222 |
+| val_accuracy:   0.765124 |
+| accuracy:   0.844121 |
+
+Epoch 00084: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.849919 |
+| loss:   0.744101 |
+| val_accuracy:   0.825921 |
+| accuracy:   0.844301 |
+
+Epoch 00085: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.860355 |
+| loss:   0.734644 |
+| val_accuracy:   0.815104 |
+| accuracy:   0.847650 |
+
+Epoch 00086: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.957424 |
+| loss:   0.737667 |
+| val_accuracy:   0.789163 |
+| accuracy:   0.847750 |
+
+Epoch 00087: val_loss did not improve from 0.75087
+lr:1.00e-01
+| val_loss:   0.744297 |
+| loss:   0.740302 |
+| val_accuracy:   0.849559 |
+| accuracy:   0.846908 |
+
+Epoch 00088: val_loss improved from 0.75087 to 0.74430, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-01
+| val_loss:   0.920004 |
+| loss:   0.726286 |
+| val_accuracy:   0.816607 |
+| accuracy:   0.850638 |
+
+Epoch 00089: val_loss did not improve from 0.74430
+lr:1.00e-01
+| val_loss:   0.966350 |
+| loss:   0.732267 |
+| val_accuracy:   0.799479 |
+| accuracy:   0.848713 |
+
+Epoch 00090: val_loss did not improve from 0.74430
+lr:1.00e-01
+| val_loss:   1.130498 |
+| loss:   0.735958 |
+| val_accuracy:   0.759115 |
+| accuracy:   0.847610 |
+
+Epoch 00091: val_loss did not improve from 0.74430
+lr:1.00e-01
+| val_loss:   0.842101 |
+| loss:   0.734266 |
+| val_accuracy:   0.829127 |
+| accuracy:   0.849314 |
+
+Epoch 00092: val_loss did not improve from 0.74430
+lr:1.00e-01
+| val_loss:   0.906591 |
+| loss:   0.735136 |
+| val_accuracy:   0.808994 |
+| accuracy:   0.847169 |
+
+Epoch 00093: val_loss did not improve from 0.74430
+lr:1.00e-02
+| val_loss:   0.593093 |
+| loss:   0.641001 |
+| val_accuracy:   0.905048 |
+| accuracy:   0.882720 |
+
+Epoch 00094: val_loss improved from 0.74430 to 0.59309, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.565370 |
+| loss:   0.580487 |
+| val_accuracy:   0.912460 |
+| accuracy:   0.900084 |
+
+Epoch 00095: val_loss improved from 0.59309 to 0.56537, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.553355 |
+| loss:   0.561476 |
+| val_accuracy:   0.912961 |
+| accuracy:   0.906601 |
+
+Epoch 00096: val_loss improved from 0.56537 to 0.55336, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.556402 |
+| loss:   0.546804 |
+| val_accuracy:   0.912460 |
+| accuracy:   0.909248 |
+
+Epoch 00097: val_loss did not improve from 0.55336
+lr:1.00e-02
+| val_loss:   0.532464 |
+| loss:   0.535100 |
+| val_accuracy:   0.918069 |
+| accuracy:   0.911694 |
+
+Epoch 00098: val_loss improved from 0.55336 to 0.53246, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.532703 |
+| loss:   0.519531 |
+| val_accuracy:   0.916266 |
+| accuracy:   0.915845 |
+
+Epoch 00099: val_loss did not improve from 0.53246
+lr:1.00e-02
+| val_loss:   0.539786 |
+| loss:   0.509542 |
+| val_accuracy:   0.914663 |
+| accuracy:   0.918070 |
+
+Epoch 00100: val_loss did not improve from 0.53246
+lr:1.00e-02
+| val_loss:   0.517241 |
+| loss:   0.499712 |
+| val_accuracy:   0.921074 |
+| accuracy:   0.920396 |
+
+Epoch 00101: val_loss improved from 0.53246 to 0.51724, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.512757 |
+| loss:   0.491729 |
+| val_accuracy:   0.919972 |
+| accuracy:   0.922542 |
+
+Epoch 00102: val_loss improved from 0.51724 to 0.51276, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.515442 |
+| loss:   0.484590 |
+| val_accuracy:   0.919972 |
+| accuracy:   0.922401 |
+
+Epoch 00103: val_loss did not improve from 0.51276
+lr:1.00e-02
+| val_loss:   0.499791 |
+| loss:   0.475027 |
+| val_accuracy:   0.923578 |
+| accuracy:   0.925028 |
+
+Epoch 00104: val_loss improved from 0.51276 to 0.49979, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.503096 |
+| loss:   0.471639 |
+| val_accuracy:   0.922776 |
+| accuracy:   0.925008 |
+
+Epoch 00105: val_loss did not improve from 0.49979
+lr:1.00e-02
+| val_loss:   0.512085 |
+| loss:   0.462188 |
+| val_accuracy:   0.917668 |
+| accuracy:   0.926412 |
+
+Epoch 00106: val_loss did not improve from 0.49979
+lr:1.00e-02
+| val_loss:   0.495776 |
+| loss:   0.455868 |
+| val_accuracy:   0.923478 |
+| accuracy:   0.927154 |
+
+Epoch 00107: val_loss improved from 0.49979 to 0.49578, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.499109 |
+| loss:   0.445819 |
+| val_accuracy:   0.922576 |
+| accuracy:   0.929981 |
+
+Epoch 00108: val_loss did not improve from 0.49578
+lr:1.00e-02
+| val_loss:   0.489005 |
+| loss:   0.446408 |
+| val_accuracy:   0.923277 |
+| accuracy:   0.928697 |
+
+Epoch 00109: val_loss improved from 0.49578 to 0.48900, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.484728 |
+| loss:   0.437955 |
+| val_accuracy:   0.922977 |
+| accuracy:   0.930261 |
+
+Epoch 00110: val_loss improved from 0.48900 to 0.48473, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.476738 |
+| loss:   0.434781 |
+| val_accuracy:   0.924579 |
+| accuracy:   0.931384 |
+
+Epoch 00111: val_loss improved from 0.48473 to 0.47674, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.481143 |
+| loss:   0.425296 |
+| val_accuracy:   0.923678 |
+| accuracy:   0.932367 |
+
+Epoch 00112: val_loss did not improve from 0.47674
+lr:1.00e-02
+| val_loss:   0.489120 |
+| loss:   0.420356 |
+| val_accuracy:   0.924479 |
+| accuracy:   0.933269 |
+
+Epoch 00113: val_loss did not improve from 0.47674
+lr:1.00e-02
+| val_loss:   0.468781 |
+| loss:   0.418091 |
+| val_accuracy:   0.925381 |
+| accuracy:   0.934693 |
+
+Epoch 00114: val_loss improved from 0.47674 to 0.46878, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.500152 |
+| loss:   0.407901 |
+| val_accuracy:   0.918470 |
+| accuracy:   0.936217 |
+
+Epoch 00115: val_loss did not improve from 0.46878
+lr:1.00e-02
+| val_loss:   0.465719 |
+| loss:   0.406125 |
+| val_accuracy:   0.925881 |
+| accuracy:   0.935054 |
+
+Epoch 00116: val_loss improved from 0.46878 to 0.46572, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.473012 |
+| loss:   0.398256 |
+| val_accuracy:   0.923778 |
+| accuracy:   0.938803 |
+
+Epoch 00117: val_loss did not improve from 0.46572
+lr:1.00e-02
+| val_loss:   0.474234 |
+| loss:   0.395254 |
+| val_accuracy:   0.924179 |
+| accuracy:   0.936578 |
+
+Epoch 00118: val_loss did not improve from 0.46572
+lr:1.00e-02
+| val_loss:   0.476041 |
+| loss:   0.396696 |
+| val_accuracy:   0.923377 |
+| accuracy:   0.935395 |
+
+Epoch 00119: val_loss did not improve from 0.46572
+lr:1.00e-02
+| val_loss:   0.496412 |
+| loss:   0.388946 |
+| val_accuracy:   0.918570 |
+| accuracy:   0.937159 |
+
+Epoch 00120: val_loss did not improve from 0.46572
+lr:1.00e-02
+| val_loss:   0.460066 |
+| loss:   0.389940 |
+| val_accuracy:   0.922175 |
+| accuracy:   0.936598 |
+
+Epoch 00121: val_loss improved from 0.46572 to 0.46007, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.478294 |
+| loss:   0.386971 |
+| val_accuracy:   0.918069 |
+| accuracy:   0.936237 |
+
+Epoch 00122: val_loss did not improve from 0.46007
+lr:1.00e-02
+| val_loss:   0.475353 |
+| loss:   0.376934 |
+| val_accuracy:   0.921775 |
+| accuracy:   0.938944 |
+
+Epoch 00123: val_loss did not improve from 0.46007
+lr:1.00e-02
+| val_loss:   0.455075 |
+| loss:   0.375151 |
+| val_accuracy:   0.925982 |
+| accuracy:   0.939465 |
+
+Epoch 00124: val_loss improved from 0.46007 to 0.45507, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.455975 |
+| loss:   0.369876 |
+| val_accuracy:   0.922676 |
+| accuracy:   0.940387 |
+
+Epoch 00125: val_loss did not improve from 0.45507
+lr:1.00e-02
+| val_loss:   0.458569 |
+| loss:   0.363812 |
+| val_accuracy:   0.921474 |
+| accuracy:   0.941450 |
+
+Epoch 00126: val_loss did not improve from 0.45507
+lr:1.00e-02
+| val_loss:   0.472369 |
+| loss:   0.364935 |
+| val_accuracy:   0.915665 |
+| accuracy:   0.941129 |
+
+Epoch 00127: val_loss did not improve from 0.45507
+lr:1.00e-02
+| val_loss:   0.466375 |
+| loss:   0.360343 |
+| val_accuracy:   0.924880 |
+| accuracy:   0.940768 |
+
+Epoch 00128: val_loss did not improve from 0.45507
+lr:1.00e-02
+| val_loss:   0.464532 |
+| loss:   0.358307 |
+| val_accuracy:   0.917668 |
+| accuracy:   0.941250 |
+
+Epoch 00129: val_loss did not improve from 0.45507
+lr:1.00e-02
+| val_loss:   0.448388 |
+| loss:   0.355456 |
+| val_accuracy:   0.923878 |
+| accuracy:   0.941651 |
+
+Epoch 00130: val_loss improved from 0.45507 to 0.44839, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.447081 |
+| loss:   0.350783 |
+| val_accuracy:   0.923277 |
+| accuracy:   0.941911 |
+
+Epoch 00131: val_loss improved from 0.44839 to 0.44708, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.464739 |
+| loss:   0.348680 |
+| val_accuracy:   0.919071 |
+| accuracy:   0.942573 |
+
+Epoch 00132: val_loss did not improve from 0.44708
+lr:1.00e-02
+| val_loss:   0.448419 |
+| loss:   0.348109 |
+| val_accuracy:   0.921775 |
+| accuracy:   0.942974 |
+
+Epoch 00133: val_loss did not improve from 0.44708
+lr:1.00e-02
+| val_loss:   0.456860 |
+| loss:   0.343163 |
+| val_accuracy:   0.919872 |
+| accuracy:   0.943375 |
+
+Epoch 00134: val_loss did not improve from 0.44708
+lr:1.00e-02
+| val_loss:   0.436973 |
+| loss:   0.339890 |
+| val_accuracy:   0.928285 |
+| accuracy:   0.944017 |
+
+Epoch 00135: val_loss improved from 0.44708 to 0.43697, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-02
+| val_loss:   0.454813 |
+| loss:   0.342677 |
+| val_accuracy:   0.922276 |
+| accuracy:   0.941631 |
+
+Epoch 00136: val_loss did not improve from 0.43697
+lr:1.00e-02
+| val_loss:   0.451346 |
+| loss:   0.337320 |
+| val_accuracy:   0.920373 |
+| accuracy:   0.943034 |
+
+Epoch 00137: val_loss did not improve from 0.43697
+lr:1.00e-02
+| val_loss:   0.453226 |
+| loss:   0.330457 |
+| val_accuracy:   0.921875 |
+| accuracy:   0.945460 |
+
+Epoch 00138: val_loss did not improve from 0.43697
+lr:1.00e-03
+| val_loss:   0.409624 |
+| loss:   0.320197 |
+| val_accuracy:   0.931390 |
+| accuracy:   0.949852 |
+
+Epoch 00139: val_loss improved from 0.43697 to 0.40962, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.406549 |
+| loss:   0.311236 |
+| val_accuracy:   0.931490 |
+| accuracy:   0.953280 |
+
+Epoch 00140: val_loss improved from 0.40962 to 0.40655, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.404430 |
+| loss:   0.303655 |
+| val_accuracy:   0.934696 |
+| accuracy:   0.954985 |
+
+Epoch 00141: val_loss improved from 0.40655 to 0.40443, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.401261 |
+| loss:   0.300890 |
+| val_accuracy:   0.934696 |
+| accuracy:   0.956027 |
+
+Epoch 00142: val_loss improved from 0.40443 to 0.40126, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.402720 |
+| loss:   0.300284 |
+| val_accuracy:   0.933393 |
+| accuracy:   0.956068 |
+
+Epoch 00143: val_loss did not improve from 0.40126
+lr:1.00e-03
+| val_loss:   0.405892 |
+| loss:   0.295784 |
+| val_accuracy:   0.933694 |
+| accuracy:   0.957471 |
+
+Epoch 00144: val_loss did not improve from 0.40126
+lr:1.00e-03
+| val_loss:   0.397366 |
+| loss:   0.296918 |
+| val_accuracy:   0.935096 |
+| accuracy:   0.957150 |
+
+Epoch 00145: val_loss improved from 0.40126 to 0.39737, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.399135 |
+| loss:   0.294525 |
+| val_accuracy:   0.935196 |
+| accuracy:   0.956789 |
+
+Epoch 00146: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.401854 |
+| loss:   0.293702 |
+| val_accuracy:   0.936198 |
+| accuracy:   0.957852 |
+
+Epoch 00147: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.400372 |
+| loss:   0.291464 |
+| val_accuracy:   0.935797 |
+| accuracy:   0.959296 |
+
+Epoch 00148: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.400626 |
+| loss:   0.291228 |
+| val_accuracy:   0.935998 |
+| accuracy:   0.957652 |
+
+Epoch 00149: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.397418 |
+| loss:   0.286552 |
+| val_accuracy:   0.935797 |
+| accuracy:   0.959837 |
+
+Epoch 00150: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.397574 |
+| loss:   0.290159 |
+| val_accuracy:   0.935697 |
+| accuracy:   0.959055 |
+
+Epoch 00151: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.398552 |
+| loss:   0.289934 |
+| val_accuracy:   0.936699 |
+| accuracy:   0.958554 |
+
+Epoch 00152: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.398469 |
+| loss:   0.288231 |
+| val_accuracy:   0.934996 |
+| accuracy:   0.959536 |
+
+Epoch 00153: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.400283 |
+| loss:   0.286318 |
+| val_accuracy:   0.935497 |
+| accuracy:   0.959617 |
+
+Epoch 00154: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.398691 |
+| loss:   0.286188 |
+| val_accuracy:   0.935296 |
+| accuracy:   0.959957 |
+
+Epoch 00155: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.398984 |
+| loss:   0.281764 |
+| val_accuracy:   0.937200 |
+| accuracy:   0.961923 |
+
+Epoch 00156: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.400303 |
+| loss:   0.285470 |
+| val_accuracy:   0.936098 |
+| accuracy:   0.959697 |
+
+Epoch 00157: val_loss did not improve from 0.39737
+lr:1.00e-03
+| val_loss:   0.396520 |
+| loss:   0.282975 |
+| val_accuracy:   0.935697 |
+| accuracy:   0.960739 |
+
+Epoch 00158: val_loss improved from 0.39737 to 0.39652, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.399858 |
+| loss:   0.279915 |
+| val_accuracy:   0.935897 |
+| accuracy:   0.961321 |
+
+Epoch 00159: val_loss did not improve from 0.39652
+lr:1.00e-03
+| val_loss:   0.397738 |
+| loss:   0.281027 |
+| val_accuracy:   0.934996 |
+| accuracy:   0.961000 |
+
+Epoch 00160: val_loss did not improve from 0.39652
+lr:1.00e-03
+| val_loss:   0.400302 |
+| loss:   0.283520 |
+| val_accuracy:   0.934996 |
+| accuracy:   0.960439 |
+
+Epoch 00161: val_loss did not improve from 0.39652
+lr:1.00e-03
+| val_loss:   0.397317 |
+| loss:   0.277317 |
+| val_accuracy:   0.934796 |
+| accuracy:   0.962384 |
+
+Epoch 00162: val_loss did not improve from 0.39652
+lr:1.00e-03
+| val_loss:   0.403848 |
+| loss:   0.279534 |
+| val_accuracy:   0.935296 |
+| accuracy:   0.961501 |
+
+Epoch 00163: val_loss did not improve from 0.39652
+lr:1.00e-03
+| val_loss:   0.397772 |
+| loss:   0.276654 |
+| val_accuracy:   0.935497 |
+| accuracy:   0.962705 |
+
+Epoch 00164: val_loss did not improve from 0.39652
+lr:1.00e-03
+| val_loss:   0.397904 |
+| loss:   0.277599 |
+| val_accuracy:   0.937099 |
+| accuracy:   0.961682 |
+
+Epoch 00165: val_loss did not improve from 0.39652
+lr:1.00e-03
+| val_loss:   0.395149 |
+| loss:   0.276844 |
+| val_accuracy:   0.936298 |
+| accuracy:   0.962424 |
+
+Epoch 00166: val_loss improved from 0.39652 to 0.39515, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.395786 |
+| loss:   0.275061 |
+| val_accuracy:   0.937800 |
+| accuracy:   0.962745 |
+
+Epoch 00167: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.395398 |
+| loss:   0.270438 |
+| val_accuracy:   0.936298 |
+| accuracy:   0.964168 |
+
+Epoch 00168: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.398838 |
+| loss:   0.274747 |
+| val_accuracy:   0.936899 |
+| accuracy:   0.962705 |
+
+Epoch 00169: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.400028 |
+| loss:   0.275877 |
+| val_accuracy:   0.934095 |
+| accuracy:   0.961622 |
+
+Epoch 00170: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.397637 |
+| loss:   0.275866 |
+| val_accuracy:   0.935597 |
+| accuracy:   0.962925 |
+
+Epoch 00171: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.399015 |
+| loss:   0.272790 |
+| val_accuracy:   0.935397 |
+| accuracy:   0.963206 |
+
+Epoch 00172: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.401050 |
+| loss:   0.269670 |
+| val_accuracy:   0.935296 |
+| accuracy:   0.964068 |
+
+Epoch 00173: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.397677 |
+| loss:   0.272124 |
+| val_accuracy:   0.935797 |
+| accuracy:   0.963286 |
+
+Epoch 00174: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.396001 |
+| loss:   0.268639 |
+| val_accuracy:   0.936298 |
+| accuracy:   0.964309 |
+
+Epoch 00175: val_loss did not improve from 0.39515
+lr:1.00e-03
+| val_loss:   0.394157 |
+| loss:   0.273247 |
+| val_accuracy:   0.936599 |
+| accuracy:   0.962123 |
+
+Epoch 00176: val_loss improved from 0.39515 to 0.39416, saving model to ResNet-for-CIFAR-10-with-Keras.h5
+lr:1.00e-03
+| val_loss:   0.397151 |
+| loss:   0.269364 |
+| val_accuracy:   0.936498 |
+| accuracy:   0.964409 |
+
+Epoch 00177: val_loss did not improve from 0.39416
+lr:1.00e-03
+| val_loss:   0.400221 |
+| loss:   0.269945 |
+| val_accuracy:   0.935597 |
+| accuracy:   0.963466 |
+
+Epoch 00178: val_loss did not improve from 0.39416
+lr:1.00e-03
+| val_loss:   0.398126 |
+| loss:   0.270632 |
+| val_accuracy:   0.937300 |
+| accuracy:   0.963206 |
+
+Epoch 00179: val_loss did not improve from 0.39416
+lr:1.00e-03
+| val_loss:   0.400538 |
+| loss:   0.269715 |
+| val_accuracy:   0.936098 |
+| accuracy:   0.962745 |
+
+Epoch 00180: val_loss did not improve from 0.39416
+lr:1.00e-03
+| val_loss:   0.397731 |
+| loss:   0.264895 |
+| val_accuracy:   0.935497 |
+| accuracy:   0.964609 |
+
+Epoch 00181: val_loss did not improve from 0.39416
+lr:1.00e-03
+| val_loss:   0.402705 |
+| loss:   0.267113 |
+| val_accuracy:   0.935497 |
+| accuracy:   0.963747 |
+
+Epoch 00182: val_loss did not improve from 0.39416
+lr:1.00e-03
+This run of ResNet-for-CIFAR-10-with-Keras ran for 4:03:54 and logs are available locally at: C:\Users\khanh\.hyperdash\logs\resnet-for-cifar-10-with-keras\resnet-for-cifar-10-with-keras_2020-04-13t10-29-52-783624.log
